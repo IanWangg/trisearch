@@ -1,6 +1,6 @@
 # TriSearch
 
-Learning to navigate triangulation spaces of simplicial polytopes with bistellar flips.
+Code for [TriSearch: Learning to Optimize Triangulations via Bistellar Flips](https://arxiv.org/abs/2605.30220).
 
 TriSearch trains one policy per objective that optimizes a triangulation of an
 unseen 3D or 4D polytope by a sequence of bistellar flips. The objectives are:
@@ -149,10 +149,14 @@ Run the tests with `pytest`. The Sage-dependent test is skipped when Sage is not
 ## Citation
 
 ```bibtex
-@article{trisearch2026,
-  title   = {TriSearch: Learning to Navigate Triangulation Spaces},
-  journal = {arXiv preprint arXiv:2605.30220},
-  year    = {2026}
+@misc{wang2026trisearchlearningoptimizetriangulations,
+      title={TriSearch: Learning to Optimize Triangulations via Bistellar Flips},
+      author={Yiran Wang and Guido Montúfar},
+      year={2026},
+      eprint={2605.30220},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.30220},
 }
 ```
 
