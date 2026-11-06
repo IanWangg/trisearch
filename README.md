@@ -149,14 +149,13 @@ Run the tests with `pytest`. The Sage-dependent test is skipped when Sage is not
 ## Citation
 
 ```bibtex
-@misc{wang2026trisearchlearningoptimizetriangulations,
-      title={TriSearch: Learning to Optimize Triangulations via Bistellar Flips},
-      author={Yiran Wang and Guido Montúfar},
-      year={2026},
-      eprint={2605.30220},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2605.30220},
+@inproceedings{
+wang2026trisearch,
+title={TriSearch: Learning to Optimize Triangulations via Bistellar Flips},
+author={Yiran Wang and Guido Montufar},
+booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+year={2026},
+url={https://openreview.net/forum?id=xNmLiO7Q7N}
 }
 ```
 
